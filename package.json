@@ -1,0 +1,29 @@
+{
+  "name": "shaxsiy-vault",
+  "version": "1.0.0",
+  "description": "Shifrlangan shaxsiy bilimlar ombori: rejalar, loyihalar, havolalar, o'qish rejalari, kundalik va maxfiy ma'lumotlar",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "server/index.js",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "init": "node scripts/init-env.js",
+    "db:setup": "node server/db/setup.js",
+    "db:migrate": "node server/db/migrate.js",
+    "start": "node server/index.js",
+    "dev": "node --watch-path=server server/index.js",
+    "test": "node --test --test-concurrency=1 \"tests/**/*.test.js\""
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.2.0",
+    "@fortawesome/fontawesome-free": "^7.3.1",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1",
+    "helmet": "^8.3.0",
+    "mysql2": "^3.24.6",
+    "zod": "^4.6.7"
+  }
+}
