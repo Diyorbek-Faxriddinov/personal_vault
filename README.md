@@ -10,6 +10,16 @@ The interface is available in three languages: **English**, **Uzbek** and **Russ
 
 ---
 
+## Screenshots
+
+![Home dashboard](screenshots/homepage.png)
+
+| Sign in | Sign up | Admin panel |
+|---|---|---|
+| ![Sign in](screenshots/sign_in.png) | ![Sign up](screenshots/sign_up.png) | ![Admin panel](screenshots/admin_panel.png) |
+
+---
+
 ## Features
 
 | Section | What's included |

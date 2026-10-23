@@ -10,6 +10,16 @@ Interfeys uch tilda: **o'zbekcha**, **inglizcha** va **ruscha**.
 
 ---
 
+## Skrinshotlar
+
+![Bosh sahifa](screenshots/homepage.png)
+
+| Kirish | Ro'yxatdan o'tish | Admin panel |
+|---|---|---|
+| ![Kirish](screenshots/sign_in.png) | ![Ro'yxatdan o'tish](screenshots/sign_up.png) | ![Admin panel](screenshots/admin_panel.png) |
+
+---
+
 ## Imkoniyatlar
 
 | Bo'lim | Nimalar bor |
